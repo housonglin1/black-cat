@@ -1,0 +1,59 @@
+export default {
+    namespaced:true,//命名空间
+    state:{
+        lists:[
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3,4],
+            name:"G**5",
+            data:"6",
+            cont:"裤子已经收到了，穿上效果还可以，深蓝色的穿上修身显瘦，裤腰的话偏高腰一些，我穿上挺合身的，裤型还可以，是直筒的版型，裤子面料也还不错，洗了不掉色，挺好的。"
+            },
+
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3],
+            name:"t**5",
+            data:"6",
+            cont:"裤子非常好，面料非常不错，穿上非常大器谢谢老板，给我们这么好的产品。"
+            },
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2],
+            name:"s**5",
+            data:"6",
+            cont:"面料确实很舒服，看了评价买的，收到效果还不错，料子是薄款的，穿上合身，裤长刚好合适，挺好看的，这次购物体验还不错！"
+            },
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3,4,5],
+            name:"s**5",
+            data:"20",
+            cont:"该用户未评价系统默认为好评"
+            },
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3],
+            name:"G**5",
+            data:"6",
+            cont:"穿了也不会出褶子，大小号也很准，真的很适合我我很喜欢！值得回购，穿着挺舒服，没有紧绷的感觉，手感也很不错，上身超级帅的，很满意的一次购物。东西很不错，整体体验：上班穿去，同事说很好，面料也舒服，质量棒幸哒。面料品质：好，物超所值，买了不会吃亏。。"
+            },
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3],
+            name:"G**5",
+            data:"6",
+            cont:"这个价格，和这个质量真的是没的说，穿出去，超级的帅，不紧绷超舒服！天热点后再回购！挺满意的，这个价位能够买到这样的物品已经很知足的，没有线头外漏，做工挺细腻的，客服小姐姐也很热情"
+            },
+            {img:require("@/assets/img/z28.jpg"),
+            heart:[1,2,3,4,5],
+            name:"G**5",
+            data:"6",
+            cont:"裤子轻薄透气牛仔水洗后褪色也不严重尺码也标准穿着 特别舒服以后再来"
+            },
+        ],
+       
+    },
+    mutations:{
+       add(state,obj){
+         state.lists.push(obj)
+         console.log(state.lists)
+        
+       }
+    },
+    actions:{}
+}
