@@ -16,6 +16,9 @@ export default {
         ],
         num:0,
     },
+
+
+    
     mutations:{
        add(state,obj){
            console.log(obj)
